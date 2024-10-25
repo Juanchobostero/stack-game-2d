@@ -11,6 +11,9 @@ importers:
       '@astrojs/check':
         specifier: ^0.9.4
         version: 0.9.4(typescript@5.6.3)
+      '@fontsource/space-mono':
+        specifier: ^5.1.1
+        version: 5.1.1
       astro:
         specifier: ^4.16.7
         version: 4.16.7(rollup@4.24.0)(typescript@5.6.3)
@@ -314,6 +317,9 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [win32]
+
+  '@fontsource/space-mono@5.1.1':
+    resolution: {integrity: sha512-v72P4frEQhldHTKQv0GqOF2JRRGhMrPAIj50v88qmW1aJW1SJAvjMtFOk/3D+L+dQM0fP2A1ZVzVkDbv8JGf7A==}
 
   '@img/sharp-darwin-arm64@0.33.5':
     resolution: {integrity: sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ==}
@@ -2151,6 +2157,8 @@ snapshots:
 
   '@esbuild/win32-x64@0.21.5':
     optional: true
+
+  '@fontsource/space-mono@5.1.1': {}
 
   '@img/sharp-darwin-arm64@0.33.5':
     optionalDependencies:
