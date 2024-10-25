@@ -1,5 +1,10 @@
 # 🎮 Stack Game 2D
 
+![{77439A3B-E944-4211-80A4-EF4B08876A26}](https://github.com/user-attachments/assets/4114f688-68ea-42d7-8552-c06f60939fbb)
+
+![{C256ED68-AF60-46E3-B6A6-3A4ACD1EED43}](https://github.com/user-attachments/assets/7cfc0412-3df2-469d-8adb-f57a154e4f60)
+
+
 A challenging 2D stacking game built with Astro where players test their precision by stacking blocks perfectly on top of each other. The higher you stack, the harder it gets!
 
 ![Stack Game Preview](public/preview.png)
@@ -10,9 +15,6 @@ A challenging 2D stacking game built with Astro where players test their precisi
 - Progressive difficulty
 - Score tracking
 - High score persistence
-- Smooth animations
-- Sound effects
-- Mobile-friendly controls
 
 ## 🚀 Getting Started
 
@@ -40,8 +42,6 @@ npm run dev
 - [Astro](https://astro.build) - Web framework
 - HTML Canvas - Game rendering
 - TypeScript - Game logic
-- Web Audio API - Sound effects
-- Local Storage - Score persistence
 
 ## 📦 Project Structure
 
@@ -49,20 +49,13 @@ npm run dev
 /
 ├── src/
 │   ├── components/
-│   │   ├── Game.astro
-│   │   ├── ScoreBoard.astro
-│   │   └── Controls.astro
+│   │   └── ...
 │   ├── layouts/
 │   │   └── GameLayout.astro
 │   ├── pages/
+        └── game.astro
 │   │   └── index.astro
-│   └── game/
-│       ├── engine.ts
-│       ├── block.ts
-│       └── audio.ts
 └── public/
-    ├── sounds/
-    └── images/
 ```
 
 ## 🧞 Commands
@@ -74,13 +67,6 @@ npm run dev
 | `npm run build`          | Build your production site to `./dist/`          |
 | `npm run preview`        | Preview your build locally, before deploying     |
 
-## 🎨 Customization
-
-You can customize various aspects of the game by modifying the following:
-
-- `src/game/config.ts` - Game settings and difficulty
-- `public/sounds/` - Game sound effects
-- `src/styles/` - Visual styling and animations
 
 ## 📱 Browser Support
 
@@ -100,6 +86,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🙏 Acknowledgments
 
-- Inspired by classic arcade games
-- Sound effects from [OpenGameArt](https://opengameart.org)
+- Midudev (https://github.com/midudev)
 - Built with [Astro](https://astro.build)
